@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding: 10px 2%;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+.logo {
+    width: 34px;
+    height: 43px;
+    margin-bottom: 18px;
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    color: #827e7e;
+}
+
+.nav-links li a:hover {
+    text-decoration: none;
+    color: #616161;
+}
